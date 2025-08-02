@@ -1,15 +1,13 @@
 export default function Navbar() {
   return (
-    <nav className="bg-gray-800 text-white p-4">
-      <div className="max-w-6xl mx-auto flex justify-between">
-        <span className="font-bold text-xl">HexProof.net</span>
+    <nav className="bg-card text-white p-4 shadow-md">
+      <div className="max-w-6xl mx-auto flex justify-between items-center">
+        <span className="text-xl font-bold text-glow">HexProof.net</span>
         <div className="space-x-4">
-          <a href="/" className="hover:underline">Shop</a>
-          <a href="#" className="hover:underline">Trade</a>
-          <a href="#" className="hover:underline">Deckbuilder</a>
-          <a href="#" className="hover:underline">Community</a>
-          <a href="#" className="hover:underline">Sell</a>
-          <a href="/login" className="hover:underline">Login</a>
+          {['Shop', 'Trade', 'Deckbuilder', 'Community', 'Sell'].map((item, idx) => (
+            <a key={idx} href="#" className="hover:text-accent">{item}</a>
+          ))}
+          <a href="/login" className="text-muted hover:text-white">Login</a>
         </div>
       </div>
     </nav>

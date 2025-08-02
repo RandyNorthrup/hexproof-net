@@ -1,5 +1,5 @@
 {
-  "name": "hexproof-net",
+  "name": "hexproof-dark-ui",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,10 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "firebase": "^10.7.1"
+    "react-dom": "latest"
   },
   "devDependencies": {
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.4.5",
     "@types/react": "^18.2.24",
     "@types/node": "^20.11.30"
