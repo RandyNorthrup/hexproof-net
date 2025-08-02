@@ -13,7 +13,7 @@
     "react-dom": "latest",
     "tailwindcss": "latest",
     "postcss": "latest",
-    "autoprefixer": "latest"
+    "autoprefixer": "latest",
     "firebase": "^10.7.1"
   },
   "devDependencies": {
